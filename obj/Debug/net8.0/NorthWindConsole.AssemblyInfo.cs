@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NorthWindConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5d2b63a0cffbecbdcefbc0467c75db037dc345d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99c33dbceb376011b1b74fbe63b2e892c3267575")]
 [assembly: System.Reflection.AssemblyProductAttribute("NorthWindConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NorthWindConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
