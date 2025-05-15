@@ -1,0 +1,2 @@
+2025-05-14 23:32:30.1291|INFO|NorthWindConsole.Program|Program started
+2025-05-14 23:32:30.1396|INFO|NorthWindConsole.Program|Program ended
