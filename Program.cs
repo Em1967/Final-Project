@@ -22,26 +22,32 @@ do
     if (choice == "1")
     {
         // display categories
-    var configuration = new ConfigurationBuilder()
-            .AddJsonFile($"appsettings.json");
+        var configuration = new ConfigurationBuilder()
+                .AddJsonFile($"appsettings.json");
 
-    var config = configuration.Build();
+        var config = configuration.Build();
 
-    var db = new DataContext();
-    var query = db.Categories.OrderBy(p => p.CategoryName);
+        var db = new DataContext();
+        var query = db.Categories.OrderBy(p => p.CategoryName);
 
-    Console.ForegroundColor = ConsoleColor.Green;
-    Console.WriteLine($"{query.Count()} records returned");
-    Console.ForegroundColor = ConsoleColor.Magenta;
-    foreach (var item in query)
-    {
-      Console.WriteLine($"{item.CategoryName} - {item.Description}");
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine($"{query.Count()} records returned");
+        Console.ForegroundColor = ConsoleColor.Magenta;
+        foreach (var item in query)
+        {
+            Console.WriteLine($"{item.CategoryName} - {item.Description}");
+        }
+        Console.ForegroundColor = ConsoleColor.White;
     }
-    Console.ForegroundColor = ConsoleColor.White;
-  }
     else if (choice == "2")
     {
         // Add category
+        Category category = new();
+    Console.WriteLine("Enter Category Name:");
+    category.CategoryName = Console.ReadLine()!;
+    Console.WriteLine("Enter the Category Description:");
+    category.Description = Console.ReadLine();
+    // TODO: save category to db
     }
     else if (String.IsNullOrEmpty(choice))
     {
