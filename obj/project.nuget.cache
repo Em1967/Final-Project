@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vIHQh0l2/M0=",
+  "dgSpecHash": "GckxyW57C6Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Elijah\\OneDrive\\Documents\\GitHub\\NorthWindConsole\\Final-Project.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Elijah\\OneDrive\\Documents\\GitHub\\NorthWindConsole\\NorthWindConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Elijah\\.nuget\\packages\\nlog\\5.3.3\\nlog.5.3.3.nupkg.sha512"
+  ],
   "logs": []
 }
